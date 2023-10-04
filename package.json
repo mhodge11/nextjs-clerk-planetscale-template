@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "db:push": "dotenv drizzle-kit push:mysql",
     "dev": "NODE_OPTIONS='--inspect' next dev",
     "format": "prettier --write .",
     "lint": "next lint",
