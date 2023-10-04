@@ -2,6 +2,9 @@
   "name": "nextjs-template",
   "version": "1.0.0",
   "private": true,
+  "author": "Micah Hodge <micahhodgeutk@icloud.com> (https://github.com/mhodge11)",
+  "license": "BSD-3-Clause",
+  "repository": "https://github.com/mhodge11/nextjs-template",
   "scripts": {
     "build": "next build",
     "db:push": "dotenv drizzle-kit push:mysql",

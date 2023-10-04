@@ -5,7 +5,7 @@ import {
   publicProcedure,
 } from "@/server/api/trpc";
 
-export const exampleRouter = createTRPCRouter({
+export const examplesRouter = createTRPCRouter({
   hello: publicProcedure
     .input(examplesRouterSchema.hello.input)
     .query(({ input }) => {
