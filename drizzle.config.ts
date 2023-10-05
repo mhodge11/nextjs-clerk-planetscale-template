@@ -7,6 +7,5 @@ export default {
   dbCredentials: {
     connectionString: env.DATABASE_URL,
   },
-  // ! Change name to current project name
   tablesFilter: [`${env.DATABASE_TABLE_PREFIX}*`],
 } satisfies Config;

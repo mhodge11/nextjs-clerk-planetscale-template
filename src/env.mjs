@@ -21,7 +21,7 @@ export const env = createEnv({
     // Node variables
     NODE_ENV: process.env.NODE_ENV,
 
-    // PlanetScale variables
+    // Drizzle variables
     DATABASE_URL: process.env.DATABASE_URL,
     DATABASE_TABLE_PREFIX: process.env.TABLE_PREFIX,
 
@@ -30,4 +30,5 @@ export const env = createEnv({
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY:
       process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
   },
+  skipValidation: !!process.env.SKIP_ENV_VALIDATION,
 });
