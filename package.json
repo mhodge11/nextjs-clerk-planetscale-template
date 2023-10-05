@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-template",
+  "name": "nextjs-clerk-planetscale-template",
   "version": "1.0.0",
   "private": true,
   "author": "Micah Hodge <micahhodgeutk@icloud.com> (https://github.com/mhodge11)",
   "license": "BSD-3-Clause",
-  "repository": "https://github.com/mhodge11/nextjs-template",
+  "repository": "https://github.com/mhodge11/nextjs-clerk-planetscale-template",
   "scripts": {
     "build": "next build",
     "db:push": "dotenv drizzle-kit push:mysql",
